@@ -1,0 +1,2 @@
+module MyAppCtrlHelper
+end

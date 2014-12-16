@@ -1,0 +1,19 @@
+body{
+	background-color:#D2CECE;
+	text-align: center;
+}
+
+.mainDiv{
+	text-align:left;
+padding-left:20em;
+}
+
+.spanLblField{
+	display: inline-block;
+  width: 150px;
+}
+
+.spanTxtField{
+	display: inline-block;
+	width: 350px;
+}

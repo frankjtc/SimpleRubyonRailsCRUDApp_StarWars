@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+	<title>View Star Wars character</title>
+	<%= stylesheet_link_tag "main" %>
+</head>
+<body>
+<div>
+		<p>
+  			<strong>Name:</strong>
+  			<%= @starwars.name %>
+			</p>
+			<p>
+  				<strong>Race:</strong>
+  				<%= @starwars.race %>
+			</p>
+			<p>
+					<strong>Affiliation:</strong>
+					<%= @starwars.isOldRepublic %>
+			</p>
+			<p>
+					<strong>Degree:</strong>
+					<%= @starwars.isPadawa %>
+			</p>
+
+</div>
+</body>
+</html>
